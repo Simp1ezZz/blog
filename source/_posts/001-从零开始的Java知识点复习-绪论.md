@@ -2,8 +2,8 @@
 title: 001-Java知识点复习从青铜到王者-大纲
 date: 2021-03-03 09:58:16
 tags: 
-	- Java
-    - 进度
+ - Java
+ - 大纲
 category: 学习
 description: Java知识点复习大纲，有每篇文章的链接，欢迎点击！
 cover: https://gitee.com/SimpleZzz/pic/raw/master/img/%E9%9D%92%E9%93%9C%E4%BE%83%E7%8E%8B%E8%80%85.jpg

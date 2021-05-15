@@ -2,10 +2,10 @@
 title: 002-Java知识点复习从青铜到王者-Collection
 date: 2021-05-15 13:26:55
 tags: 
-	- java
-    - 复习
-    - 集合
-    - Collection
+ - java
+ - 复习
+ - 集合
+ - Collection
 category: 学习
 cover: https://gitee.com/SimpleZzz/pic/raw/master/img/%E9%9D%92%E9%93%9C%E4%BE%83%E7%8E%8B%E8%80%85.jpg
 ---
@@ -51,7 +51,7 @@ cover: https://gitee.com/SimpleZzz/pic/raw/master/img/%E9%9D%92%E9%93%9C%E4%BE%8
 
 ### 1.4 Collection接口
 
-#### 1.4.1 接口中的全部方法
+#### 1.4.1 接口中的全部方法 
 
 ![Collection接口方法](https://gitee.com/SimpleZzz/pic/raw/master/img/Collection%E5%85%A8%E9%83%A8%E6%96%B9%E6%B3%95.png)
 

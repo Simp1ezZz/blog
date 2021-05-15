@@ -259,7 +259,7 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
-  # - Valine
+  - Valine
   # - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -602,7 +602,7 @@ blog_title_font:
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
   enable: true
-  icon: # the unicode value of Font Awesome icon, such as '\3423'
+  icon: '\f21c' # the unicode value of Font Awesome icon, such as '\3423'
   icon-top:
 
 # the subtitle on homepage (主頁subtitle)
@@ -694,7 +694,7 @@ runtimeshow:
 newest_comments:
   enable: true
   sort_order: # Don't modify the setting unless you know how it works
-  limit: 6
+  limit: 3
   storage: 10 # unit: mins, save data to localStorage
   avatar: true
   # You can only choose one, or neither
