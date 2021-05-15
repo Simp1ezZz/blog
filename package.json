@@ -15,6 +15,9 @@
     "@neilsustc/markdown-it-katex": "^0.13.5",
     "cheerio": "^1.0.0-rc.9",
     "core-js": "^3.12.1",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-html-minifier-terser": "^6.0.1",
     "hexo": "^5.0.0",
     "hexo-butterfly-envelope": "^1.0.4",
     "hexo-deployer-git": "^3.0.0",
@@ -36,5 +39,13 @@
     "hexo-theme-landscape": "^0.0.3",
     "hexo-wordcount": "^6.0.1",
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlclean": "^2.7.22",
+    "gulp-uglify": "^3.0.2"
   }
 }

@@ -313,14 +313,14 @@ valine:
   pageSize: 10 # comment list page size
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
-  placeholder: 记得留下你的昵称和邮箱哦，这样就能尽快收到回复了！ # valine comment input placeholder (like: Please leave your footprints)
+  placeholder: 1.为了更快的取得回复以及防止恶意评论，昵称和邮箱是必填项!\n2.在昵称处填写qq号会自动识别你的qq昵称，qq邮箱以及qq头像\n3.评论支持markdown格式!\n4.快来留下你的评论吧！  # valine comment input placeholder (like: Please leave your footprints)
   guest_info: nick,mail,link # valine comment header info (nick/mail/link)
   recordIP: true # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: # valine background
   emojiCDN: //i0.hdslb.com/bfs/emote/ # emoji CDN
   enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
-  requiredFields: nick # required fields (nick/mail)
+  requiredFields: nick,mail # required fields (nick/mail)
   master: # md5加密后的博主邮箱 md5 加密可以使用在线转码，务必使用 32位[小] 进行转码。
        - bc169019aff78ff3cca6c3055f5a7d11  #可添加多个
   friends: # md5加密后的小伙伴邮箱 
@@ -473,6 +473,10 @@ site_verification:
 
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
+# banner样式
+bilibili_banner:
+  enable: true # 开关banner
+  style: winter  # autumn 秋季样式 ；winter 冬季样式
 
 theme_color:
   enable: true
@@ -494,7 +498,7 @@ theme_color:
 # The position of site info, eg: 300px/300em/300rem/10% (主頁標題距離頂部距離)
 index_site_info_top: 
 # The height of top_img, eg: 300px/300em/300rem (主頁top_img高度)
-index_top_img_height:
+index_top_img_height: 
 
 # The user interface setting of category and tag page (category和tag頁的UI設置)
 # index - same as Homepage UI (index 值代表 UI將與首頁的UI一樣)
@@ -850,6 +854,7 @@ inject:
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css"  media="defer" onload="this.media='all'">  #动画标签anima的依赖
     - <script src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/dist/echarts.min.js"></script>
     - <script src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/map/js/china.js"></script> # <!-- 绘制地图需要另外添加 china.js -->
+    - <link rel="stylesheet" href="/css/bilibiliBanner.css"  media="defer" onload="this.media='screen'">
   bottom:
     - <script defer src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
     # 自butterfly_v3.4.0+开始，主题基本实现去jquery化，需要自己添加引用，请读者根据版本自行决定是否添加这行引用。
@@ -865,14 +870,15 @@ CDN:
   jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
   main: /js/main.js
   utils: /js/utils.js
-
+  bilibili_banner: /js/bilibili-banner.js
   # pjax
   pjax: https://cdn.jsdelivr.net/npm/pjax/pjax.min.js
 
   # comments
   gitalk: https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
   gitalk_css: https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css
-  valine: https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
+  # valine: https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
+  valine: https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js
   disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
   disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
