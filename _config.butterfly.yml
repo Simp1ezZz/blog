@@ -475,7 +475,7 @@ site_verification:
 # Notice: color value must in double quotes like "#000" or may cause error!
 # banner样式
 bilibili_banner:
-  enable: true # 开关banner
+  enable: false # 开关banner
   style: winter  # autumn 秋季样式 ；winter 冬季样式
 
 theme_color:

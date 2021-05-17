@@ -205,16 +205,22 @@ magnet:
   display:
     - name: 学习 # 这里是tags或者categories的名称
       display_name: SimpleZzzの编程学习 # 这里是替换的名称
-      icon: 📚 # 这里是展示的图标
+      icon: 👨‍💻 # 这里是展示的图标
+    - name: LeetCode
+      display_name: SimpleZzzの刷题指南
+      icon: 💯
     - name: 游戏
-      display_name: SimpleZzzの游戏评测
+      display_name: SimpleZzzの游戏趣事
       icon: 🎮
+    - name: 影视
+      display_name: SimpleZzzの影视观感
+      icon: 🎥
+    - name: 书籍
+      display_name: SimpleZzzの读书感悟
+      icon: 📖
     - name: 生活
-      display_name: SimpleZzzの生活趣闻
-      icon: 🐱‍👓
-    - name: 随想
-      display_name: SimpleZzzの胡思乱想
-      icon: 💡
+      display_name: SimpleZzzの生活琐事
+      icon: 🌆
   color_setting:
     text_color: black
     text_hover_color: white

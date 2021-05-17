@@ -1,16 +1,16 @@
 ---
-title: 002-Java知识点复习从青铜到王者-Collection
+title: 001-Java从白银到大地球-Collection
 date: 2021-05-15 13:26:55
 tags: 
- - java
- - 复习
+ - Java
+ - 从白银到达地球
  - 集合
  - Collection
 category: 学习
-cover: https://gitee.com/SimpleZzz/pic/raw/master/img/%E9%9D%92%E9%93%9C%E4%BE%83%E7%8E%8B%E8%80%85.jpg
+cover: https://gitee.com/SimpleZzz/pic/raw/master/img/%E7%99%BD%E9%93%B6%20%E4%B8%80%20I.png
 ---
 
-# 从零开始的Java知识点复习-Collection
+# Java从白银到大地球-Collection
 
 {% note info flat %}集合是Java中最经常用得东西，也是面试基本必问的知识点，需要我们重点掌握{% endnote %}
 
