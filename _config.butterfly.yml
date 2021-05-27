@@ -11,7 +11,7 @@ menu:
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  说说: /talks/ || fas fa-book
+  说说: /talks/ || fa-fw fas fa-comment
   留言板: /comments/ || fas fa-heart
   统计数据: /charts/ || fas fa-chart-line
 
@@ -412,8 +412,8 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: 欢迎来到<a href="http://simp1ezzz.icu">SimpleZzz的博客</a>!
-  copyright: true # Copyright of theme and framework
+  custom_text: 欢迎来到<a href="http://simp1ezzz.icu">SimpleZzz的博客</a>!</br><a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2021006945号-1</a>
+  copyright: false # Copyright of theme and framework
 
 # Analysis
 # --------------------------------------
@@ -623,7 +623,7 @@ subtitle:
   # source: 3  調用一句網（簡體）
   # source: 4  調用今日詩詞（簡體）
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: 2
+  source: 1
   # 如果有英文逗號' , ',請使用轉義字元 &#44;
   # 如果有英文雙引號' " ',請使用轉義字元 &quot;
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
@@ -790,7 +790,7 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: true
+  enable: false
   exclude:
     # - xxxx
     # - xxxx

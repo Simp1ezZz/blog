@@ -151,7 +151,8 @@ markdown:
 
 # github热度
 githubcalendar:
-  enable: true
+  enable: false
+  priority: 1
   enable_page: /  # 表示只在根目录(首页)显示
   user: Simp1ezZz	  # 替换成你 GitHub 的用户名
   layout_id: recent-posts
@@ -176,8 +177,8 @@ electric_clock:
 
 # 置顶文章集合
 swiper:
-  enable: true
-  priority: 10
+  enable: false
+  priority: 3
   enable_page: /
   layout:
     type: id
@@ -197,8 +198,8 @@ history_calendar:
   temple_html: '<div class="card-widget card-history"><div class="card-content"><div class="item-headline"><i class="fas fa-clock fa-spin"></i><span>那年今日</span></div><div id="history-baidu" style="height: 100px;overflow: hidden"><div class="history_swiper-container" id="history-container" style="width: 100%;height: 100%"><div class="swiper-wrapper" id="history_container_wrapper" style="height:20px"></div></div></div></div>'
 
 magnet:
-  enable: true
-  priority: 9
+  enable: false
+  priority: 2
   enable_page: /
   type: categories # 选择筛选分类还是标签
   devide: 2
@@ -233,7 +234,18 @@ magnet:
   temple_html: '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet">${temple_html_item}</div></div>'
   plus_style: ""
 
-  
+daodao_swiper:
+  url: https://daodao-six.vercel.app/api?q=20 #注意一：切记，这里后面需要修改，后续第三步会说明
+  fliter: "['img','iframe']"
+  priority: 10
+  enable: false
+  enable_page: /
+  layout:
+    type: id
+    name: recent-posts
+    index: 0
+  temple_html: '<div class="recent-post-item" style="height: auto;width: 100%"><div class="bbTimeList container" style="height: auto;width: 100%" id="bbTimeList"><i class="bber-gotobb fas fa-bullhorn" onclick="location=&#39;/daodao/&#39;" title="叨叨"></i><div class="swiper-container" id="bbtalk"><div class="swiper-wrapper" id="bber-talk" onclick="location=&#39;/daodao/&#39;"></div></div><i class="bber-gotobb fas fa-arrow-circle-right" onclick="location=&quot;/daodao/&quot;" title="查看全文"></i></div></div>'
+    
 # envelope_comment
 # see https://akilar.top/posts/58900a8/
 envelope_comment:
