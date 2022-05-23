@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@neilsustc/markdown-it-katex": "^0.13.5",
-    "cheerio": "^1.0.0-rc.9",
+    "cheerio": "^1.0.0-rc.11",
     "core-js": "^3.12.1",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
